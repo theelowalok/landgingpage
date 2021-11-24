@@ -1,0 +1,208 @@
+/* styles and color to use
+DArk background #1F2937
+Hero main text (this website is awesom")
+48px extra-bold #F9FAF8
+
+Hero secondar text, header lik text
+18px #E5E7EB
+
+Header Log text24px #F9FAF8
+
+Button color, call to action ackground colgroup
+#3882F6
+
+information header text
+36px extra-bold #1F2937
+
+Quote setion bacground color #E5E7EB
+
+Quote text 
+36px light italic #1f2937 */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* header section starts here*/
+
+header{
+    background-color: #1f2937;
+    color: white;
+    padding: 20px 40px 10px 100px;
+    height: 40px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center; 
+}
+
+.headerlink{
+   
+    list-style: none;
+    display: inline-flex;
+    text-align: center;  
+    justify-content: space-around;
+    color: white;
+    cursor: pointer;
+    position: relative;
+}
+
+header ul li{
+    padding-right: 40px;
+    margin: 0px 20px;
+}
+
+.headerlogo{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+/* Body section starts here */
+
+body{
+    background-color: white;
+    color: black;
+}
+    
+
+.section{
+    background-color: #1f2937;
+    color: white;  
+    padding: 120px 90px 90px 200px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+.contentone h1{
+    font-size: 48px;
+    font-weight: bolder;
+    flood-color: #F9FAF8;
+}
+
+.contentone h4{
+    margin: 10px 0px 20px 0px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+#firstimage{
+    float: right;
+    width: 55%;
+    height: auto;
+}
+
+#firstbutton{
+    background-color: #3882F6;
+    color: white;
+    cursor: pointer;
+    border: 10px solid #3882F6;
+    width: 100px;
+    border-radius: 10px;
+    align-items: inherit; 
+}
+
+#firstbutton:hover{
+    border-color: white;
+    background-color: white;
+    color: #3882F6;
+    cursor: pointer;
+}
+
+/*second section starts here */
+
+#secondtwo{
+    color: black;
+    margin: 30px;
+    height: auto;
+    align-items: center;
+     padding: 20px 90px 20px 200px;
+    
+}
+
+#secondtwo h1 {
+    text-align: center;
+    color:#1F2937;
+    padding-bottom: 40px;
+    font-size: 38px;
+    font-weight: bolder;
+}
+
+#imagesection{
+    display: flex;
+    align-items: center;
+    justify-content: ;
+   
+}
+
+#imagesection img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 5px solid #3882F6;
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    vertical-align: text-bottom;
+    text-align: center;
+    
+}
+
+
+/*section three starts here */
+
+#sectionthree{
+    background-color: #E5E7EB;
+    padding: 60px;
+    height: auto;
+}
+
+#sectionthree p{
+    padding: 20px 200px 20px 200px;
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+}
+
+#sectionthree ul{
+    list-style: none;
+    float: right;
+    padding: 0px 200px 0px 200px;
+}
+
+/*call to action starts here */
+
+#calltoaction{
+    border: 1px solid #3882F6;
+    border-radius: 10px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    margin: 50px 200px;
+    padding: 30px 80px;
+    height: auto;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+#lastaction{
+    color:white;
+    border: 2px solid white;
+    background-color: #3882F6;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+}
+
+.calltext{
+    font-size: 1.17em;
+}
+
+/*footer starts here */
+
+footer{
+    background-color: #1f2937;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    font-weight: lighter;
+}
