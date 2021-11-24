@@ -24,6 +24,9 @@ Quote text
     padding: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+html{
+    width: 100%;
+}
 /* header section starts here*/
 
 header{
@@ -31,6 +34,7 @@ header{
     color: white;
     padding: 20px 40px 10px 100px;
     height: 40px;
+    width: inherit;
     justify-content: space-between;
     display: flex;
     align-items: center; 
@@ -114,6 +118,7 @@ body{
     color: black;
     margin: 30px;
     height: auto;
+    width: auto;
     align-items: center;
      padding: 20px 90px 20px 200px;
     
