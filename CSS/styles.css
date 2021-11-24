@@ -130,7 +130,7 @@ body{
 #imagesection{
     display: flex;
     align-items: center;
-    justify-content: ;
+    justify-content: space-around;
    
 }
 
@@ -146,6 +146,11 @@ body{
     vertical-align: text-bottom;
     text-align: center;
     
+}
+.content{
+    text-align: center;
+    color: red;
+    padding-left: 50px;
 }
 
 
